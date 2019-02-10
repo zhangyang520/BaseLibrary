@@ -1,0 +1,103 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 26
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    //support的包 导入
+    compile "com.android.support:appcompat-v7:$app_support_compat"
+    compile "com.android.support:support-v4:${app_support_compat}"
+    compile "com.android.support:recyclerview-v7:${app_support_compat}"
+    compile "com.android.support:design:${app_support_compat}"
+    compile "com.android.support:cardview-v7:${app_support_compat}"
+    compile "com.android.support.constraint:constraint-layout:$constraint_layout"
+    compile "com.android.support:multidex:$index_multidex"
+    testCompile "org.robolectric:shadows-multidex:$shadows_multidex"
+
+
+    compile"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    // If you don't want to extends SupportActivity/Fragment and would like to customize your own support, just rely on fragmentation-core
+    // compile 'me.yokeyword:fragmentation-core:1.3.6'
+    // To get SwipeBack feature, rely on both fragmentation & fragmentation-swipeback
+
+    //fragment相关的包
+    compile "me.yokeyword:fragmentation:$fragmentation"
+    // Swipeback is based on fragmentation. Refer to SwipeBackActivity/Fragment for your Customized SupportActivity/Fragment
+    compile "me.yokeyword:fragmentation-swipeback:$fragmentation"
+    // To simplify the communication between Fragments.
+    compile "me.yokeyword:eventbus-activity-scope:$activity_scope"
+    // Your EventBus's version
+    compile "org.greenrobot:eventbus:$eventbus"
+
+    //glide 显示
+    compile "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+
+    //dagger retrofit rxjava rxandroid 的导入
+    //引入 dagger相关的包
+    compile "com.google.dagger:dagger:$dagger_version"
+    //引入 dagger 编译包 生成指定的类
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+
+    //okhttp的从基础库
+    compile "com.squareup.okhttp3:okhttp:$ok_http_version"
+    //retrofit的基础库M
+    compile "com.squareup.retrofit2:retrofit:$retrofit_version"
+    //retrofit与 gson的结合
+    compile "com.squareup.retrofit2:converter-gson:${retrofit_version}"
+    //retrofit与 rxjava的结合
+    compile "com.squareup.retrofit2:adapter-rxjava:${retrofit_version}"
+    //okhttp3与日志拦截器结合
+    compile "com.squareup.okhttp3:logging-interceptor:${ok_http_version}"
+
+    //rx_kotlin 和 rx_android 引入的包
+    compile "io.reactivex:rxkotlin:$rx_kotlin_version"
+    compile "io.reactivex:rxandroid:$rx_kotlin_version"
+
+    //RxLifecycler activity生命周期的控制
+    compile "com.trello:rxlifecycle-kotlin:$rx_lifecycler_version"
+    compile "com.trello:rxlifecycle-components:$rx_lifecycler_version"
+
+    //适配布局
+    compile "com.zhy:autolayout:$zhy_autolayout"
+
+    //ARouter 阿里的路由
+    compile "com.alibaba:arouter-api:$arouter_api_version"
+
+    compile 'com.dinuscxj:recyclerrefreshlayout:2.0.5'
+}
+repositories {
+    mavenCentral()
+}

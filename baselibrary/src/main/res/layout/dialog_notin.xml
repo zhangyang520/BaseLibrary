@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/ll_dialog"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/transparent"
+>
+
+    <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rectange_white"
+    >
+
+                <ImageView android:layout_width="69dp"
+                       android:layout_height="69dp"
+                       android:src="@drawable/pipei_new"
+                       android:layout_gravity="center_horizontal"
+                       android:layout_marginTop="30dp"
+                />
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/not_in_text"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="29dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="28dp"
+                    android:lineSpacingExtra="26px"
+                    android:textSize="15sp"
+                />
+    </LinearLayout>
+
+
+            <Button
+                      android:id="@+id/btn_exit"
+                      android:layout_width="54dp"
+                      android:layout_height="54dp"
+                      android:textColor="@color/black"
+                      android:background="@drawable/guanbi"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="20dp"
+            />
+</LinearLayout>

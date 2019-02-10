@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--错误的输入框颜色提示-->
+    <color name="et_mistake_frame">#db0000</color>
+    <!--不可点击按钮的按钮背景色-->
+    <color name="btn_unclickable_background_color">#c6c6c6</color>
+    <color name="btn_huifang">#ffffff</color>
+    <!-- 深蓝 -->
+    <color name="deep_blue">#66A9DD</color>
+    <color name="text_blue">#18B3EE</color>
+    <color name="text_warning_yellow">#ED8C2D</color>
+    <color name="red">#ff0000</color>
+
+    <!-- 淡蓝 -->
+    <color name="light_blue">#CCF2FF</color>
+    <color name="orange">#F48019</color>
+    <color name="state_green">#18D9C5</color>
+
+    <!--     <color  name="">#ED9B0D</color> -->
+    <color name="praise_cyan">#2D5C9B</color>
+    <!-- 灰白色 -->
+    <color name="grey">#efeff4</color>
+    <!-- 亮蓝色 -->
+    <color name="lightblue">#add8e6</color>
+    <!-- 暗深红色 -->
+    <color name="crimson">#dc143c</color>
+    <!-- 灰色 -->
+    <color name="gray">#808080</color>
+    <color name="albumback">#E1E0DE</color>
+    <!-- 绿色 -->
+    <color name="green">#008000</color>
+    <!-- 亮灰色 -->
+    <color name="lightgray">#c7c7c7</color>
+    <!-- 蓝色 -->
+    <color name="blue">#0000ff</color>
+    <!-- 50%透明黑 -->
+    <color name="trans_black">#a0000000</color>
+    <!-- 50%透明黑 -->
+    <color name="trans_grey">#55efeff4</color>
+    <!-- 透明色 -->
+    <color name="none_color">#00000000</color>
+
+    <!--黄色-->
+    <color name="yellow_deep_1">#FFCC00</color>
+    <!-- 淡灰色 -->
+    <color name="btn_color">#585858</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="text_black">#323232</color>
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="dark_grey">#D8D8D8</color>
+    <color name="mediumgreen">#00cc99</color> <!--中绿色 -->
+    <color name="aqua">#00FFFF</color> <!--浅绿色 -->
+
+
+    <!--公共业务颜色-->
+    <!--app大标题的背景颜色-->
+    <color name="title_backround_color">#FFFFFF</color>
+    <!--整个activity的背景颜色-->
+    <color name="activity_background_color">#EFEEF4</color>
+    <!--app大标题的字体颜色-->
+    <color name="title_bg_color">#ffffff</color>
+    <color name="title_right_text_color">#00754b</color>
+    <color name="app_background_color">#EFEEF4</color> <!--app的背景底色-->
+    <color name="recylerview_list_bg">#FFFFFF</color>
+
+
+    <!--转圈的提示颜色-->
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_default_color_2">#44000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+    <color name="camera_line_color">#7d7d7d</color>
+    <color name="tv_name_color">#000000</color>
+    <color name="tv_name_mine">#757575</color>
+    <color name="tv_info_color">#757575</color>
+    <color name="tv_key_active">#8E8E93</color>
+    <!--#8a000000  #23000000-->
+    <color name="tv_main_txt">#8a000000</color>
+    <!--四级和六级口语-->
+    <color name="suo_color">#E0E0E0</color>
+    <color name="no_suo_color">#000000</color>
+
+    <!--swipeRefreshLayout 的颜色-->
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+
+
+    <!--颜色重新归类-->
+    <!--系统主要颜色-->
+    <color name="app_main_color_tint">#ff8833</color>  <!--浅色主题颜色-->
+    <color name="app_main_color_deep">#FF6B2F</color>  <!--深色主题颜色-->
+
+    <color name="true_simulation_back">#33C4C4C4</color>
+    <!--app 的线 描边 箭头 未激活 颜色-->
+
+    <color name="item_not_download">#F9E4C7</color>
+    <color name="app_line_color">#eaeaea</color>
+    <color name="app_stroke_color">#eaeaea</color>
+    <color name="app_arrow_color">#eaeaea</color>
+    <color name="app_unactived_color">#11eaeaea</color>
+    <color name="fen_se">#d4237a</color>
+    <!--app 的线 描边 箭头 未激活对应的点击状态的颜色-->
+    <color name="app_line_clicked_color">#c9c9c9</color>
+    <color name="app_stroke_clicked_color">#c9c9c9</color>
+    <color name="app_arrow_clicked_color">#c9c9c9</color>
+    <color name="app_unactived_clicked_color">#c9c9c9</color>
+
+    <color name="recorder_background">#F8F8F8</color>
+    <!-- 灰色字 #FF231815-->
+    <color name="app_font_gray_color">#FF757575</color>
+    <color name="app_font_gray_deep_color">#757575</color>
+    <color name="app_font_black_color">#000000</color>
+    <color name="app_font_whie_color">#ffffff</color>
+    <color name="app_font_huatong_color">#c9c9c9</color>
+    <color name="app_truemu_font_color">#FF231815</color>
+
+    <!--常用的颜色-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light">#F6F6F6</color>
+    <color name="black">#000000</color>
+    <color name="black_60">#66000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white0.6">#f4f4f4</color>
+    <color name="whiteEnabled">#eaeaea</color>
+    <color name="skyblue">#33aaee</color>
+    <color name="btnbackground">#ff6b2f</color>
+    <color name="btnbackground2">#fda480</color>
+
+    <color name="selcet">#231815</color>
+    <color name="seconds">#A4A4A4</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="newtaskUpMusicUi_back_color">#4D000000</color>
+</resources>

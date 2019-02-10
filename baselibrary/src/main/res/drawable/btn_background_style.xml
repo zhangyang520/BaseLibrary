@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--不可点击状态-->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/btn_unclickable_background_color" />
+            <corners android:radius="@dimen/p12" />
+        </shape>
+    </item>
+    <!--可点击按下去状态-->
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/btnbackground2" />
+            <corners android:radius="@dimen/p12" />
+        </shape>
+    </item>
+    <!--可点击没有点击状态-->
+    <item android:state_enabled="true" android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/btnbackground" />
+            <corners android:radius="@dimen/p12" />
+        </shape>
+
+    </item>
+</selector>

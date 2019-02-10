@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">iSpeak爱口语</string>
+    <string name="tv_usename">用户名</string>
+    <string name="tv_info">个人信息</string>
+    <string name="title_activity_feed_back">FeedBackActivity</string>
+
+    <!--问题-->
+    <string name="sentence_question">What would many people think of San Francisco according to the passage?
+</string>
+
+    <string name="sentence_answer">Hello! My name is Li JianHello! My name is Li JianHello! My name is Li JianHello! My name is Li JianHello! My name is Li JianHello! My name is Li Jian</string>
+    <string name="zhengduan_answer">Question 2:
+What would many people think of San Francisco according to the passage?
+</string>
+    <string name="trans_tips">训练目的</string>
+    <string name="trans_introduce_tips">Tips</string>
+    <string name="trans_photo_tips">图片描述</string>
+    <string name="trans_introduce_1">My Name is ...</string>
+    <string name="trans_introduce_2">i come from ...</string>
+    <string name="trans_huadong">点击话筒,开始录音</string>
+    <string name="trans_content">这位四级君，修炼至此，且行且珍惜，趁热回忆下iSpeak答题秘籍，快来闯关吧！</string>
+    <string name="trans_content_six">这位六级君，修炼至此，且行且珍惜，趁热回忆下iSpeak答题秘籍，快来闯关吧！</string>
+    <string name="trans_start">开始闯关</string>
+    <string name="trans_question_1">问答1</string>
+    <string name="trans_luyin_jieshu">点击录音结束</string>
+    <string name="trans_luyin_start">点击录音开始</string>
+    <string name="trans_result">修炼成果</string>
+    <string name="trans_current_time">00:09</string>
+    <string name="trans_total_time">00:69</string>
+    <string name="trans_content_des">Tips:
+
+Sanfransico is one of the most delightful citi in the word
+</string>
+    <string name="trans_result_tips">是不是意犹未尽？
+快去“实战模式”下感受真实考试流程吧</string>
+    <string name="train_my_luyin">我的录音</string>
+    <string name="train_agin">再来一套</string>
+    <string name="train_go">实战反馈</string>
+    <string name="train_chenshu">The picture presents the bad behaviors of some tourists beside an ancient tree at a scenicspot. Although the sign asks tourists to protect the ancient tree, a boy is hanging from a branch and his weight is about to break it. A man stepson the trunk of the tree with one foot while taking photos of a woman who’s holding a pose beside the tree. A carved message is seen on the tree: “Mr. So-and-So was here.”</string>
+    <string name="train_content">Classmate conflicts among senior middle school students are often heard on campus over recent years. These conflicts make the excitement of campus life grow grey and have bad effects on both their living and learning.Classmate conflicts often rise from daily tiny things such as space where to store books or notes. When personalities don’t mix, the specifics can tear classmates apart and sometimes even lead to serious conflicts. Besides, the fact that classmates hold different attitudes towards certain issues is another factor causing these conflicts.Classmate conflicts are harmful and need to be settled. Though many people think that school discipline can soften the conflicts, I believe learning to be tolerant with each other can play a more constructive role because it teaches students flexibility and the art of compromise.
+</string>
+    <string name="title_activity_exam_introduction">ExamIntroductionActivity</string>
+    <string name="title_activity_grow_track_web">GrowTrackActivityWebActivity</string>
+    <string name="title_activity_exam_introduction_wen">ExamIntroductionWenActivity</string>
+
+    <!--驰声相关的字符串-->
+    <string name="ref_text">输入要测试的话.</string>
+    <string name="record">record</string>
+    <string name="stop">stop</string>
+    <string name="playback">playback</string>
+
+    <!--提醒介绍-->
+    <string name="lasttime_dialog">自我介绍环节是四六级考试的热身环节。此环节不占总分</string>
+    <!--文本超长-->
+    <string name="out_of_limit">吐槽字数超标了，臣妾做不到啊！</string>
+
+    <!--全真模拟-->
+    <string name="true_simulation_text">通话已连接，直接对着手机聊天吧</string>
+    <string name="true_simulation_dialog_text">
+ 网速不给力 or 学霸们正在奋战中，暂时没有人接受邀请。建议检查下网络情况先哦~</string>
+    <string name="true_simulation_invite1">检测成功！</string>
+    <string name="true_simulation_invite2">点击邀请！系统将为你自动挑选</string>
+    <string name="true_simulation_invite3">一位答题伙伴。</string>
+    <string name="true_simulation_test">测试</string>
+    <string name="true_simulation_mic_low">音量太小，答题录音会不稳定哦！</string>
+    <string name="true_simulation_mic_none">系统检测不到声音，快去设置麦克风吧！</string>
+    <string name="true_simulation_voice_test">测试语音设备</string>
+    <string name="true_simulation_voice_text1">被部分需要邀请一位小伙伴合作完成哦。</string>
+    <string name="true_simulation_voice_text2">在邀请小伙伴之前，</string>
+    <string name="true_simulation_voice_text3">需要先测试你的耳机和麦克风！</string>
+    <string name="true_simulation_communicate_exit">退出后将与你的小伙伴失联哦，确定要离开么</string>
+    <string name="true_simulation_auto_record">实战环节系统自动录音，听到beep声后，请直接作答吧~</string>
+
+    <!--训练-->
+    <string name="train_result_red">别灰心，也许是还没有放飞自我</string>
+    <string name="train_result_orange">路漫漫其修远兮，我先回家练口语，加油哦！</string>
+    <string name="train_result_green">哇塞~前方发现一只口语大牛，看好你哦！</string>
+    <string name="train_finish_text">是不是意犹未尽？快去“实战模式”下感受真实考试流程吧</string>
+    <string name="train_start_text">快来选择一位角色进行与iSpeak对话吧</string>
+    <string name="train_mix_start">点击话筒，开始录音</string>
+    <string name="train_mix_green">点击话筒，录音结束</string>
+    <string name="train_mic_gray">点击话筒，开始下一段录音</string>
+    <string name="train_mic_finish">点击话筒，录音结束</string>
+
+    <string name="cet4_train_result_text">这位四级君，修炼至此，且行且珍惜，趁热回忆下iSpeak答题秘籍，快来闯关吧！</string>
+    <string name="cet6_train_result_text">这位六级君，修炼至此，且行且珍惜，趁热回忆下iSpeak答题秘籍，快来闯关吧！</string>
+    <!--跟读-->
+    <string name="gendu_mic_start">点击话筒，开始录音</string>
+    <string name="gendu_mic_low">音量过小：音量太小，快放飞自我吧</string>
+    <string name="gendu_net_shutdown">录音没有得分？你的设备没有联网哦</string>
+
+    <!--2G/3G/4G-->
+    <string name="network_switch">你正在使用非WiFi网络，下载将会产生一定的流量费用哦</string>
+
+    <!--小组互动实战-->
+    <string name="group_combat_text_first">本部分需要邀请一位小伙伴合作完成哦。\n在邀请小伙伴之前，\n需要先测试你的耳机和麦克风!</string>
+    <string name="group_combat_text_second">检测成功!\n点击邀请，系统将为你自动挑选一位答题伙伴!</string>
+
+    <string name="vitamio_init_decoders">Initializing decoders…</string>
+    <string name="permission_group_tools_label">Vitamio tools</string>
+    <string name="permission_group_tools_description">Access Vitamio package and resources.</string>
+    <string name="permission_receive_messages_label">Receive Vitamio messages</string>
+    <string name="permission_receive_messages_description">Receive all broadcasts from Vitamio service.</string>
+    <string name="permission_write_providers_label">Write Vitamio providers</string>
+    <string name="permission_write_providers_description">Delete, update or create new items in Vitamio providers.
+    </string>
+    <string name="VideoView_error_title">Cannot play video</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+        this device.
+    </string>
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="flow_rate">接下来的环节需要在线匹配小伙伴答题,大概耗费20MB左右流量,土豪包月请随意～</string>
+    <string name="download_all_tips">稍安勿躁，试题君正在打包自己....</string>
+    <string name="not_in_text">全真模拟需要重新匹配小伙伴,当前匹配流程还在进行中。若想练习全真模拟,请点击右上角小喇叭,结束当前匹配流程哦。</string>
+    <string name="not_in_interactoin_text">两人互动需要重新匹配小伙伴,当前匹配流程还在进行中。若想练习两人互动,请点击右上角小喇叭,结束当前匹配流程哦。</string>
+    <string name="not_in_taolun_text">讨论需要重新匹配小伙伴,当前匹配流程还在进行中。若想练习讨论,请点击右上角小喇叭,结束当前匹配流程哦。</string>
+    <string name="kouyu_da_ren">口语达人</string>
+    <string name="tv_pair_random_content">还是无响应？试题加载更多, 匹配范围超大哦～</string>
+    <string name="tv_pair_single_content">无响应，开启随机模式</string>
+    <string name="go_to_download">去加载>></string>
+    <string name="try_try">试一试>></string>
+    <string name="task_affinity">cn.unipus.ispeak.cet.newtaskaffinity</string>
+    <string name="dialog_exist_tips1">退出后你将与你的小伙伴失联哦，确定要离开吗？</string>
+    <string name="dialog_exist_tips2">小伙伴马上来了，确定退出么</string>
+    <string name="dialog_exist_cancel1">手滑，继续</string>
+    <string name="dialog_exist_cancel2">手滑</string>
+    <string name="dialog_exist_ok1">bye小伙伴</string>
+    <string name="dialog_exist_ok2">先不等了</string>
+    <string name="match_ok">匹配成功啦 !</string>
+    <string name="exam_all_download">所有试题都已经收入囊中,开始闯关吧!</string>
+    <string name="exam_all_not_buy">试题还没有解锁哦~赶快去解锁来闯关吧！</string>
+
+
+    <string name="pushmsg_center_no_more_msg">已经到底啦</string>
+    <string name="pushmsg_center_pull_up_text">松开加载更多</string>
+    <string name="pushmsg_center_pull_down_text">下拉可以刷新</string>
+    <string name="pushmsg_center_pull_release_text">松开获取更多</string>
+    <string name="pushmsg_center_pull_down_update_time">最后更新时间 : </string>
+    <string name="pushmsg_center_load_more_ongoing_text">下拉刷新,正在加载中</string>
+    <string name="xsearch_loading">正在加载中…</string>
+
+    <!-- 下拉刷新和上拉加载更多的文本 -->
+    <string name="pull_to_refresh_header_hint_normal">@string/pushmsg_center_pull_down_text</string>
+    <string name="pull_to_refresh_header_hint_normal2">上拉可以加载更多</string>
+    <string name="pull_to_refresh_header_hint_ready">松开后刷新</string>
+    <string name="pull_to_refresh_footer_hint_ready">松开后加载更多</string>
+    <string name="pull_to_refresh_header_hint_loading">@string/pushmsg_center_load_more_ongoing_text</string>
+    <string name="pull_to_refresh_footer_hint_loading">上拉加载更多，正在加载中</string>
+    <string name="pull_to_refresh_header_last_time">@string/pushmsg_center_pull_down_update_time</string>
+    <string name="pull_to_refresh_refreshing_label">@string/pull_to_refresh_header_hint_loading</string>
+    <string name="pull_to_refresh_no_more_data">@string/pushmsg_center_no_more_msg</string>
+    <string name="pull_to_refresh_network_error">网络不给力，请检查网络</string>
+</resources>

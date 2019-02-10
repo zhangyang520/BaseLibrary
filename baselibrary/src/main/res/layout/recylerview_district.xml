@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="88px">
+
+
+    <!--
+      #98979C 灰色
+      #000000 黑色
+    -->
+     <TextView
+             android:id="@+id/tv_district"
+             android:layout_width="wrap_content"
+             android:textSize="25px"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="20px"
+             android:layout_height="wrap_content"/>
+</com.zhy.autolayout.AutoRelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_rectange_white"
+    android:id="@+id/ll_dialog">
+    <TextView
+        android:id="@+id/tv_tips"
+        android:gravity="center"
+        android:textSize="@dimen/p30_s"
+        android:layout_margin="@dimen/p24"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录音完毕,直接进入结果界面"/>
+
+    <View
+        android:id="@+id/load_divide"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p1"
+        android:background="@color/app_font_huatong_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p114"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/p48"
+        android:layout_marginBottom="@dimen/p48">
+
+        <Button
+            android:layout_margin="30px"
+            android:id="@+id/tv_fanhui"
+            android:gravity="center"
+            android:textSize="@dimen/p34_s"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/p88"
+            android:layout_gravity="center"
+            android:background="@color/app_main_color_tint"
+            android:text="返回"/>
+
+        <Button
+            android:layout_margin="30px"
+            android:id="@+id/tv_repipei"
+            android:gravity="center"
+            android:textSize="@dimen/p34_s"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/p88"
+            android:layout_gravity="center"
+            android:background="@color/app_main_color_tint"
+            android:text="重新匹配"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="18px"
+        android:visibility="gone"/>
+</LinearLayout>

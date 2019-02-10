@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+  <corners android:radius="@dimen/p12"></corners>
+    <stroke android:color="@color/camera_line_color" android:width="@dimen/p2"></stroke>
+       <solid android:color="@color/kprogresshud_default_color"></solid>
+</shape>

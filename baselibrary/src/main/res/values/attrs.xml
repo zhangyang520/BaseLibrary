@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_out_flag" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="auto3d">
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+    <!--自定的圆形的进度框-->
+    <declare-styleable name="ButtonCircleProgressBar">
+        <!--无进度时的颜色-->
+        <attr name="progress_unreached_color" format="color" />
+        <!--进度颜色-->
+        <attr name="progress_reached_color" format="color" />
+        <!--进度条的高-->
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <!--无进度时的边框高-->
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <!--圆的半径-->
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <!--策划删除动画ListView-->
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean"/>
+        <attr name="ios" format="boolean"/>
+        <attr name="leftSwipe" format="boolean"/>
+    </declare-styleable>
+
+    <!--文本折叠点击展开-->
+    <declare-styleable name="MoreTextStyle">
+        <attr name="textSize1" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="maxLine" format="integer" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="GifView">
+                <attr name="gif" format="reference" />
+                <attr name="paused" format="boolean" />
+            </declare-styleable>
+        <declare-styleable name="CustomTheme">
+            <attr name="gifViewStyle" format="reference" />
+        </declare-styleable>
+
+</resources>

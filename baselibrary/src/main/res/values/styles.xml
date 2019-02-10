@@ -1,0 +1,143 @@
+<resources>
+
+
+    <style name="Transparent_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 设置标题头部左侧的按钮样式 <item name="android:paddingRight">13dp</item>-->
+    <style name="TitleLeftBtn">
+        <item name="android:layout_width">24px</item>
+        <item name="android:layout_height">41px</item>
+        <item name="android:layout_marginLeft">20px</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/btn_background_style</item>
+        <item name="android:textColor">@drawable/btn_text_color_selector</item>
+        <item name="android:textSize">@dimen/p34_s</item>
+    </style>
+    <style name="ButtonLogin">
+        <item name="android:background">@drawable/btn_background_login_style</item>
+        <item name="android:textColor">@drawable/btn_text_color_login_selector</item>
+        <item name="android:textSize">@dimen/p34_s</item>
+    </style>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--所有的训练中框主题-->
+    <style name="Train_textview_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">trans_tips</item>
+        <item name="android:textSize">@dimen/tv_name_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/padding_top_1</item>
+        <item name="android:layout_marginLeft">@dimen/padding_left_1</item>
+    </style>
+
+
+    <!--所有的训练中框主题-->
+    <style name="Train_textview_size_1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">trans_tips</item>
+        <item name="android:textSize">@dimen/p34_s</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 大 分数按钮 -->
+    <style name="Read_score_copy_btn">
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">88px</item>
+        <item name="android:text">80</item>
+        <item name="android:background">@drawable/deifen</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_height">88px</item>
+    </style>
+
+    <!-- 小 分数按钮 -->
+    <style name="Read_score_btn">
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">@dimen/app_score_circle_30</item>
+        <item name="android:text">80</item>
+        <item name="android:background">@drawable/deifen</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_height">@dimen/app_score_circle_30</item>
+    </style>
+
+    <!-- 分数 字体 样式-->
+    <style name="score_textview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_9</item>
+        <item name="android:textColor">@color/app_font_gray_deep_color</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="customDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/shape_rectange_white</item>
+    </style>
+
+    <style name="customDialog_transparent" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="notIn" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="newtaskUpMusicUi" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="simulationDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/shape_rectange_white</item>
+    </style>
+
+    <style name="MediaController_SeekBar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <style name="MediaController_Text">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

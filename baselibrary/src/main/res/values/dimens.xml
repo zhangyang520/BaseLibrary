@@ -1,0 +1,352 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--下载框的设置-->
+    <dimen name="download_width">100dp</dimen>
+    <dimen name="download_height">70dp</dimen>
+    <!--            -->
+    <dimen name="barwidth">150dp</dimen>
+    <dimen name="barheight">18dp</dimen>
+    <dimen name="popup_position_width">250dp</dimen>
+    <dimen name="popup_difference">25dp</dimen>
+    <dimen name="popup_position_margin">20dp</dimen>
+    <!--            -->
+    <dimen name="radius">50dp</dimen>
+    <dimen name="rect_radius">7dp</dimen>
+    <dimen name="rect_radius_3">3dp</dimen>
+    <dimen name="send_comment_radius">6dp</dimen>
+    <dimen name="oval_line_width">2dp</dimen>
+    <dimen name="rect_line_width">1dp</dimen>
+
+    <!-- 公共部分                                              -->
+    <dimen name="title_height">30dp</dimen><!--标题高-->
+    <dimen name="back_height">60dp</dimen><!--返回键高-->
+    <dimen name="edge_padding_right">24px</dimen><!--右边距-->
+    <dimen name="commit_btn_height">50dp</dimen><!--所有提交按钮的标准高-->
+    <dimen name="ll_hint_text_height">25dp</dimen><!--所有提示文字-外边距标准高-->
+    <dimen name="ll_et_height">88px</dimen><!--所有输入框外边距标准高-->
+    <dimen name="ll_et_width">600px</dimen><!--所有输入框外边距标准高-->
+    <dimen name="ll_video_width">702px</dimen><!--所有输入框外边距标准高-->
+    <dimen name="ll_video_height">402px</dimen><!--所有输入框外边距标准高-->
+    <dimen name="btn_video_width">654px</dimen><!--所有输入框外边距标准高-->
+    <dimen name="btn_video_height">354px</dimen><!--所有输入框外边距标准高-->
+    <dimen name="et_iv_tag_height">25dp</dimen><!--所有输入框前面标签图片高-->
+    <dimen name="et_iv_tag_width">24px</dimen><!--所有输入框之间的间隔的宽-->
+    <dimen name="middle_width">36px</dimen><!--所有输入框之间的间隔的宽-->
+    <dimen name="buttom_width">48px</dimen><!--最底部的间隔的宽-->
+    <dimen name="mine_list_icon">42px</dimen><!--最底部的间隔的宽-->
+    <dimen name="mine_list_icon_qianjin">30px</dimen><!--最底部的间隔的宽-->
+
+    <!--大标题的字体大小-->
+    <dimen name="title_text_size">48px</dimen>
+    <!--按钮的字体大小-->
+    <dimen name="btn_text_size">15.3sp</dimen>
+    <dimen name="et_tv_size">13.5sp</dimen><!--所有输入框里面字体大小-->
+    <!--其他的字体大小-->
+    <dimen name="text_size">10.8sp</dimen>
+
+    <!--距离竖直方向的margin_1-->
+    <dimen name="margin_top_1">30dp</dimen>
+
+    <!--我的模块-->
+    <dimen name="portrait_height">122px</dimen><!--头像高-->
+    <dimen name="portrait_width">120px</dimen><!--头像宽-->
+    <!--头像-->
+    <dimen name="rl_portrati_height">100dp</dimen><!--头像外布局高-->
+    <dimen name="margin_left_1">30dp</dimen><!--外边距-->
+
+    <!--几种的Padding值-->
+    <dimen name="padding_left_1">30dp</dimen><!--内边距-->
+    <dimen name="padding_left_2">50dp</dimen>
+    <dimen name="padding_top_1">20dp</dimen><!--竖直方向的边距-->
+    <dimen name="padding_top_10">10dp</dimen>
+    <dimen name="padding_left_10">10dp</dimen>
+    <dimen name="padding_top_15">15dp</dimen>
+
+    <!--几种margin 值-->
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+
+    <dimen name="tv_name_size">15sp</dimen>
+    <dimen name="tv_usename_margin_left">30dp</dimen><!--用户名字左外边缘距离-->
+    <dimen name="tv_usename_margin_bottom">15dp</dimen><!--用户名字底外边缘距离-->
+    <dimen name="tv_usename_size">15sp</dimen><!--用户名字字体大小尺寸-->
+    <dimen name="tv_info_size">10.8sp</dimen><!--个人信息字体大小尺寸-->
+    <dimen name="rl_message_height">90dp</dimen><!--消息盒子/成长轨迹 外布局高-->
+    <dimen name="bth_red_number_width">14px</dimen><!--新消息红点按钮宽-->
+    <dimen name="bth_red_number_height">14px</dimen><!--新消息红点按钮高-->
+
+    <dimen name="ll_list_height">88px</dimen><!--列表外布局高-->
+    <!--关于我们-->
+    <dimen name="iv_icon_height">100dp</dimen><!--图标高-->
+    <dimen name="abount_us_tx_hint_height">20sp</dimen><!--提示文字文本大小-->
+    <!--意见反馈-->
+    <dimen name="feedback_et_msg_height">150dp</dimen><!--意见反馈内容输入框高-->
+    <dimen name="feedback_ll_iv_height">50dp</dimen><!--添加的图片外布局的高-->
+    <dimen name="feedback_et_phone_height">50dp</dimen><!--添加联系方式输入框高-->
+    <!--个人中心-->
+    <dimen name="personage_tx_name_size">20sp</dimen><!--名字大小-->
+    <dimen name="personage_iv_portrait_height">230px</dimen><!--头像高-->
+    <dimen name="personage_iv_portrait_width">225px</dimen><!--头像宽-->
+    <dimen name="personage_ll_height">55sp</dimen><!--列表高-->
+
+    <!--修改信息-->
+    <dimen name="change_tx_hint_size">20sp</dimen><!--提示文字文本大小-->
+    <!--启动模块-->
+    <!--广告页-->
+    <dimen name="adv_btn_jumpnext_width">80dp</dimen><!--广告页跳转按钮宽-->
+    <dimen name="adv_btn_jumpnext_height">50dp</dimen><!--广告页跳转按钮高-->
+    <!--导航页-->
+    <dimen name="nav_vp_height">400dp</dimen><!--导航页viewpager高-->
+    <dimen name="nav_btn_reg_height">55dp</dimen><!--注册按钮高-->
+    <dimen name="nav_btn_login_height">55dp</dimen><!--登陆按钮高-->
+    <!--首页-->
+    <dimen name="four_btn__height">60dp</dimen><!--四级按钮高-->
+    <dimen name="six_btn__height">60dp</dimen><!--六级按钮高-->
+    <dimen name="home_vp__height">462px</dimen><!--首页导航栏高-->
+    <!--登录模块-->
+    <dimen name="tx_welcome_size">60sp</dimen><!--welcome文本字体大小-->
+    <!--注册页面-->
+    <!--忘记密码-->
+
+    <!--激活验证码页面-->
+    <dimen name="hint_text1_height">40dp</dimen><!--“请输入验证码”提示文本高-->
+    <dimen name="hint_text2_height">35dp</dimen><!--“不区分大小写”提示文本高-->
+
+    <!--四级口语和六级口语界面-->
+    <dimen name="item_first_height">70dp</dimen>
+    <dimen name="text_first_size">15sp</dimen>
+    <dimen name="text_first_size2">12sp</dimen>
+    <dimen name="img_height">25dp</dimen>
+    <dimen name="img_width">25dp</dimen>
+    <dimen name="iv_function_director_width">30dp</dimen>
+    <dimen name="iv_function_director_height">30dp</dimen>
+    <dimen name="item_second_height">50dp</dimen>
+    <dimen name="item_btn_height">88px</dimen><!--功能模块-修炼/实战按钮高-->
+    <dimen name="item_btn_width">206px</dimen><!--功能模块-修炼/实战按钮宽-->
+    <dimen name="item_margin_top">20dp</dimen>
+
+    <!--修炼模式中一些 距离-->
+    <dimen name="exerise_icon_width">30dp</dimen>
+    <dimen name="exerise_icon_height">30dp</dimen>
+    <dimen name="exerise_question_height">100dp</dimen>
+    <dimen name="exerise_round_height">60dp</dimen>
+    <dimen name="exerise_round_gap">50dp</dimen>
+    <dimen name="exerise_sentence_btn_height">50dp</dimen>
+
+    <!--整合归类的大小-->
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_12.6">12.6sp</dimen>
+    <dimen name="text_size_13.5">13.5sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_15.3">15.3sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_16.2">16.2sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+
+    <!--padding 值-->
+    <dimen name="padding_top_12">12dp</dimen>
+    <dimen name="padding_top_24">24dp</dimen>
+    <dimen name="padding_top_36">36dp</dimen>
+    <dimen name="padding_top_48">48dp</dimen>
+    <dimen name="padding_top_96">96dp</dimen>
+
+    <dimen name="padding_left_12">12dp</dimen>
+    <dimen name="padding_left_24">24dp</dimen>
+    <dimen name="padding_left_36">36dp</dimen>
+    <dimen name="padding_left_48">48dp</dimen>
+    <dimen name="padding_left_96">96dp</dimen>
+
+    <dimen name="padding_right_12">12dp</dimen>
+    <dimen name="padding_right_24">24dp</dimen>
+    <dimen name="padding_right_36">36dp</dimen>
+    <dimen name="padding_right_48">48dp</dimen>
+    <dimen name="padding_right_96">96dp</dimen>
+
+    <dimen name="padding_bottom_12">12dp</dimen>
+    <dimen name="padding_bottom_24">24dp</dimen>
+    <dimen name="padding_bottom_36">36dp</dimen>
+    <dimen name="padding_bottom_48">48dp</dimen>
+    <dimen name="padding_bottom_96">96dp</dimen>
+
+
+    <!--margin 值-->
+    <dimen name="margin_top_5">5dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_12">12dp</dimen>
+    <dimen name="margin_top_24">24dp</dimen>
+    <dimen name="margin_top_36">36dp</dimen>
+    <dimen name="margin_top_48">48dp</dimen>
+    <dimen name="margin_top_96">96dp</dimen>
+
+    <dimen name="margin_left_5">5dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="margin_left_12">12dp</dimen>
+    <dimen name="margin_left_24">24dp</dimen>
+    <dimen name="margin_left_36">36dp</dimen>
+    <dimen name="margin_left_48">48dp</dimen>
+    <dimen name="margin_left_96">96dp</dimen>
+
+    <dimen name="margin_right_12">12dp</dimen>
+    <dimen name="margin_right_24">24dp</dimen>
+    <dimen name="margin_right_36">36dp</dimen>
+    <dimen name="margin_right_48">48dp</dimen>
+    <dimen name="margin_right_96">96dp</dimen>
+
+    <dimen name="margin_bottom_12">12dp</dimen>
+    <dimen name="margin_bottom_24">24dp</dimen>
+    <dimen name="margin_bottom_36">36dp</dimen>
+    <dimen name="margin_bottom_48">48dp</dimen>
+    <dimen name="margin_bottom_96">96dp</dimen>
+
+    <!--圆角的长度-->
+    <dimen name="circular_corner_12">12dp</dimen>
+    <dimen name="circular_corner_3">3dp</dimen>
+    <dimen name="circular_corner_4">4dp</dimen>
+    <dimen name="circular_corner_5">5dp</dimen>
+    <dimen name="circular_corner_10">10dp</dimen>
+
+
+    <!--细线的高度-->
+    <dimen name="line_height_1">1dp</dimen>
+    <dimen name="line_height_2">2dp</dimen>
+    <dimen name="line_height_3">3dp</dimen>
+
+    <!--布局中框的高度-->
+    <dimen name="app_frame_title_height_20">20dp</dimen>
+    <dimen name="app_frame_title_height_25">25dp</dimen>
+    <dimen name="app_frame_title_height_30">30dp</dimen>
+    <dimen name="app_frame_title_height_40">40dp</dimen>
+
+    <dimen name="app_frame_width_60">60dp</dimen>
+
+    <!--布局中箭头的高度 对应宽和高比例 0.7142-->
+    <dimen name="app_arrow_width_30">30dp</dimen>
+    <dimen name="app_arrow_height_30_rate">42dp</dimen>
+    <dimen name="app_arrow_width_20">20dp</dimen>
+    <dimen name="app_arrow_height_20_rate">28dp</dimen>
+
+    <!--app 的头像-->
+    <dimen name="app_pic_height_44">46px</dimen>
+    <dimen name="app_pic_width_44">44px</dimen>
+    <dimen name="app_pic_height_50">50px</dimen>
+    <dimen name="app_pic_width_50">50px</dimen>
+    <dimen name="app_pic_width_90">90px</dimen>
+    <dimen name="app_pic_height_60">60px</dimen>
+
+    <!--分数圆形的高度 和宽度-->
+    <dimen name="app_score_circle_45">45px</dimen>
+    <dimen name="app_score_circle_30">30px</dimen>
+
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="p1">0.5dp</dimen>
+    <dimen name="p2">1dp</dimen>
+    <dimen name="p4">2dp</dimen>
+    <dimen name="p5">2.5dp</dimen>
+    <dimen name="p6">3dp</dimen>
+    <dimen name="p8">4dp</dimen>
+    <dimen name="p10">5dp</dimen>
+    <dimen name="p12">6dp</dimen>
+    <dimen name="p14">7dp</dimen>
+    <dimen name="p15">7.5dp</dimen>
+    <dimen name="p16">8dp</dimen>
+    <dimen name="p17">8.5dp</dimen>
+    <dimen name="p18">9dp</dimen>
+    <dimen name="p19">9.5dp</dimen>
+    <dimen name="p20">10dp</dimen>
+    <dimen name="p24">12dp</dimen>
+    <dimen name="p26">13dp</dimen>
+    <dimen name="p30">15dp</dimen>
+    <dimen name="p32">16dp</dimen>
+    <dimen name="p34">17dp</dimen>
+    <dimen name="p35">17.5dp</dimen>
+    <dimen name="p36">18dp</dimen>
+    <dimen name="p40">20dp</dimen>
+    <dimen name="p42">21dp</dimen>
+    <dimen name="p44">22dp</dimen>
+    <dimen name="p46">23dp</dimen>
+    <dimen name="p48">24dp</dimen>
+    <dimen name="p50">25dp</dimen>
+    <dimen name="p56">28dp</dimen>
+    <dimen name="p60">30dp</dimen>
+    <dimen name="p70">35dp</dimen>
+    <dimen name="p72">36dp</dimen>
+    <dimen name="p75">37.5dp</dimen>
+    <dimen name="p80">40dp</dimen>
+    <dimen name="p88">44dp</dimen>
+    <dimen name="p90">45dp</dimen>
+    <dimen name="p96">48dp</dimen>
+    <dimen name="p98">49dp</dimen>
+    <dimen name="p100">50dp</dimen>
+    <dimen name="p102">51dp</dimen>
+    <dimen name="p106">53dp</dimen>
+    <dimen name="p108">54dp</dimen>
+    <dimen name="p110">55dp</dimen>
+    <dimen name="p112">56dp</dimen>
+    <dimen name="p114">57dp</dimen>
+    <dimen name="p120">60dp</dimen>
+    <dimen name="p130">65dp</dimen>
+    <dimen name="p132">66dp</dimen>
+    <dimen name="p136">68dp</dimen>
+    <dimen name="p140">70dp</dimen>
+    <dimen name="p144">72dp</dimen>
+    <dimen name="p150">75dp</dimen>
+    <dimen name="p158">79dp</dimen>
+    <dimen name="p168">84dp</dimen>
+    <dimen name="p180">90dp</dimen>
+    <dimen name="p192">96dp</dimen>
+    <dimen name="p200">100dp</dimen>
+    <dimen name="p206">103dp</dimen>
+    <dimen name="p214">107dp</dimen>
+    <dimen name="p226">113dp</dimen>
+    <dimen name="p230">115dp</dimen>
+    <dimen name="p240">120dp</dimen>
+    <dimen name="p260">130dp</dimen>
+    <dimen name="p300">150dp</dimen>
+    <dimen name="p354">177dp</dimen>
+    <dimen name="p402">201dp</dimen>
+    <dimen name="p462">231dp</dimen>
+    <dimen name="p500">250dp</dimen>
+    <dimen name="p520">260dp</dimen>
+    <dimen name="p600">300dp</dimen>
+    <dimen name="p702">351dp</dimen>
+    <dimen name="p810">405dp</dimen>
+
+
+
+
+
+    <dimen name="pt36">18sp</dimen>
+    <dimen name="p20_s">10sp</dimen>
+    <dimen name="p24_s">12sp</dimen>
+    <dimen name="p26_s">13sp</dimen>
+    <dimen name="p28_s">14sp</dimen>
+    <dimen name="p30_s">15sp</dimen>
+    <dimen name="p32_s">16sp</dimen>
+    <dimen name="p34_s">17sp</dimen>
+    <dimen name="p50_s">25sp</dimen>
+    <dimen name="p60_s">30sp</dimen>
+    <dimen name="p80_s">40sp</dimen>
+    <dimen name="p90_s">45sp</dimen>
+
+
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_text_size">10dp</dimen>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="1242px">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/rl_area"
+            android:layout_width="match_parent"
+             android:layout_height="1144px">
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyler_province"
+                android:background="#F0EFF4"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.RecyclerView
+                android:background="@color/white"
+                android:id="@+id/recyler_city"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+
+        <android.support.v7.widget.RecyclerView
+                android:background="@color/white"
+                android:id="@+id/recyler_district"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98px"
+            android:orientation="horizontal">
+        <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="280px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="取 消"
+                android:textSize="30px"
+                android:background="#CACACC"
+        />
+
+        <Button
+                android:id="@+id/btn_ok"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="30px"
+                android:background="#19D0FA"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>
